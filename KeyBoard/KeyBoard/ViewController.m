@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "KeyboardViewController.h"
+#import "KeyboardComplexViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -43,12 +44,25 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellId];
         cell.backgroundColor = [UIColor colorWithRed:240/255.0 green:255/255.0 blue:240/255.0 alpha:1];
     }
+    
+    if (indexPath.row ==0) {
+        [cell.textLabel setText:@"VC+Textfield"];
+    }else{
+        [cell.textLabel setText:@""];
+    }
+    
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    KeyboardViewController *VC = [[KeyboardViewController alloc]initWithNibName:@"KeyboardViewController" bundle:nil];
-    [self.navigationController pushViewController:VC animated:YES];
+
+    if (indexPath.row ==0) {
+        KeyboardViewController *VC = [[KeyboardViewController alloc]initWithNibName:@"KeyboardViewController" bundle:nil];
+        [self.navigationController pushViewController:VC animated:YES];
+    }else if (indexPath.row ==1){
+        KeyboardComplexViewController  *VC = [[KeyboardComplexViewController alloc]initWithNibName:@"KeyboardComplexViewController" bundle:nil];
+        [self.navigationController pushViewController:VC animated:YES];
+    }
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

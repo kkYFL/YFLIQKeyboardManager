@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3A3692691FD134B70035BBE2 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3692671FD134B70035BBE2 /* KeyboardViewController.m */; };
 		3A36926A1FD134B70035BBE2 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3692681FD134B70035BBE2 /* KeyboardViewController.xib */; };
+		3A36926E1FD15CC90035BBE2 /* KeyboardComplexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */; };
+		3A36926F1FD15CC90035BBE2 /* KeyboardComplexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */; };
 		3AA221CB1FCFE06300F6C87B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA221CA1FCFE06300F6C87B /* AppDelegate.m */; };
 		3AA221CE1FCFE06300F6C87B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA221CD1FCFE06300F6C87B /* ViewController.m */; };
 		3AA221D11FCFE06300F6C87B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA221CF1FCFE06300F6C87B /* Main.storyboard */; };
@@ -41,6 +43,9 @@
 		3A3692661FD134B70035BBE2 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		3A3692671FD134B70035BBE2 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		3A3692681FD134B70035BBE2 /* KeyboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		3A36926B1FD15CC90035BBE2 /* KeyboardComplexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardComplexViewController.h; sourceTree = "<group>"; };
+		3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardComplexViewController.m; sourceTree = "<group>"; };
+		3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardComplexViewController.xib; sourceTree = "<group>"; };
 		3AA221C61FCFE06300F6C87B /* KeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA221C91FCFE06300F6C87B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AA221CA1FCFE06300F6C87B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +107,9 @@
 				3A3692661FD134B70035BBE2 /* KeyboardViewController.h */,
 				3A3692671FD134B70035BBE2 /* KeyboardViewController.m */,
 				3A3692681FD134B70035BBE2 /* KeyboardViewController.xib */,
+				3A36926B1FD15CC90035BBE2 /* KeyboardComplexViewController.h */,
+				3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */,
+				3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */,
 			);
 			path = keyBoardFile;
 			sourceTree = "<group>";
@@ -281,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A36926F1FD15CC90035BBE2 /* KeyboardComplexViewController.xib in Resources */,
 				3AA221D61FCFE06300F6C87B /* LaunchScreen.storyboard in Resources */,
 				3AA221D31FCFE06300F6C87B /* Assets.xcassets in Resources */,
 				3AA221D11FCFE06300F6C87B /* Main.storyboard in Resources */,
@@ -366,6 +375,7 @@
 				3AA221CE1FCFE06300F6C87B /* ViewController.m in Sources */,
 				3AA221D91FCFE06300F6C87B /* main.m in Sources */,
 				3AA221CB1FCFE06300F6C87B /* AppDelegate.m in Sources */,
+				3A36926E1FD15CC90035BBE2 /* KeyboardComplexViewController.m in Sources */,
 				3A3692691FD134B70035BBE2 /* KeyboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
