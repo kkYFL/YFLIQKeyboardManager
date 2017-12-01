@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-689" y="129"/>
         </scene>
-        <!--View Controller-->
+        <!--KeyboadManager-->
         <scene sceneID="tlg-kW-RgG">
             <objects>
                 <viewController id="f7h-wG-iD8" customClass="ViewController" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ycZ-Yz-EUK">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="f7h-wG-iD8" id="dP2-QL-2ZE"/>
@@ -46,13 +46,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ycZ-Yz-EUK" firstAttribute="trailing" secondItem="Ik3-dQ-gzY" secondAttribute="trailing" id="4KR-Ut-fRW"/>
-                            <constraint firstItem="ycZ-Yz-EUK" firstAttribute="top" secondItem="Ik3-dQ-gzY" secondAttribute="top" id="6yq-Eg-WMj"/>
+                            <constraint firstItem="ycZ-Yz-EUK" firstAttribute="top" secondItem="Ik3-dQ-gzY" secondAttribute="top" constant="-64" id="6fk-vZ-oYQ"/>
                             <constraint firstItem="ycZ-Yz-EUK" firstAttribute="bottom" secondItem="Ik3-dQ-gzY" secondAttribute="bottom" id="Xa3-cZ-NAd"/>
                             <constraint firstItem="ycZ-Yz-EUK" firstAttribute="leading" secondItem="Ik3-dQ-gzY" secondAttribute="leading" id="Ysb-fe-Q7p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ik3-dQ-gzY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UqY-xT-EIE"/>
+                    <navigationItem key="navigationItem" title="KeyboadManager" id="UqY-xT-EIE"/>
                     <connections>
                         <outlet property="table" destination="ycZ-Yz-EUK" id="gMK-Q0-TuA"/>
                     </connections>

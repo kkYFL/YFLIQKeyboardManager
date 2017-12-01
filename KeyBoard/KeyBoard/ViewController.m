@@ -41,6 +41,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellId];
+        cell.backgroundColor = [UIColor colorWithRed:240/255.0 green:255/255.0 blue:240/255.0 alpha:1];
     }
     return cell;
 }
