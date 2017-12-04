@@ -11,6 +11,10 @@
 		3A36926A1FD134B70035BBE2 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3692681FD134B70035BBE2 /* KeyboardViewController.xib */; };
 		3A36926E1FD15CC90035BBE2 /* KeyboardComplexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */; };
 		3A36926F1FD15CC90035BBE2 /* KeyboardComplexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */; };
+		3A5912521FD54C1700658A5F /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5912501FD54C1700658A5F /* SettingTableViewCell.m */; };
+		3A5912531FD54C1700658A5F /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5912511FD54C1700658A5F /* SettingTableViewCell.xib */; };
+		3A5912571FD551D400658A5F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5912551FD551D400658A5F /* SettingViewController.m */; };
+		3A5912581FD551D400658A5F /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5912561FD551D400658A5F /* SettingViewController.xib */; };
 		3AA221CB1FCFE06300F6C87B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA221CA1FCFE06300F6C87B /* AppDelegate.m */; };
 		3AA221CE1FCFE06300F6C87B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA221CD1FCFE06300F6C87B /* ViewController.m */; };
 		3AA221D11FCFE06300F6C87B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA221CF1FCFE06300F6C87B /* Main.storyboard */; };
@@ -46,6 +50,12 @@
 		3A36926B1FD15CC90035BBE2 /* KeyboardComplexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardComplexViewController.h; sourceTree = "<group>"; };
 		3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardComplexViewController.m; sourceTree = "<group>"; };
 		3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardComplexViewController.xib; sourceTree = "<group>"; };
+		3A59124F1FD54C1700658A5F /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		3A5912501FD54C1700658A5F /* SettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
+		3A5912511FD54C1700658A5F /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		3A5912541FD551D400658A5F /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3A5912551FD551D400658A5F /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3A5912561FD551D400658A5F /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		3AA221C61FCFE06300F6C87B /* KeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA221C91FCFE06300F6C87B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AA221CA1FCFE06300F6C87B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,14 +114,36 @@
 		3A3692621FD1346E0035BBE2 /* keyBoardFile */ = {
 			isa = PBXGroup;
 			children = (
+				3A59124E1FD54BED00658A5F /* controller */,
+				3A59124D1FD54BED00658A5F /* View */,
+			);
+			path = keyBoardFile;
+			sourceTree = "<group>";
+		};
+		3A59124D1FD54BED00658A5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A59124F1FD54C1700658A5F /* SettingTableViewCell.h */,
+				3A5912501FD54C1700658A5F /* SettingTableViewCell.m */,
+				3A5912511FD54C1700658A5F /* SettingTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A59124E1FD54BED00658A5F /* controller */ = {
+			isa = PBXGroup;
+			children = (
 				3A3692661FD134B70035BBE2 /* KeyboardViewController.h */,
 				3A3692671FD134B70035BBE2 /* KeyboardViewController.m */,
 				3A3692681FD134B70035BBE2 /* KeyboardViewController.xib */,
 				3A36926B1FD15CC90035BBE2 /* KeyboardComplexViewController.h */,
 				3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */,
 				3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */,
+				3A5912541FD551D400658A5F /* SettingViewController.h */,
+				3A5912551FD551D400658A5F /* SettingViewController.m */,
+				3A5912561FD551D400658A5F /* SettingViewController.xib */,
 			);
-			path = keyBoardFile;
+			path = controller;
 			sourceTree = "<group>";
 		};
 		3AA221BD1FCFE06300F6C87B = {
@@ -289,10 +321,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5912581FD551D400658A5F /* SettingViewController.xib in Resources */,
 				3A36926F1FD15CC90035BBE2 /* KeyboardComplexViewController.xib in Resources */,
 				3AA221D61FCFE06300F6C87B /* LaunchScreen.storyboard in Resources */,
 				3AA221D31FCFE06300F6C87B /* Assets.xcassets in Resources */,
 				3AA221D11FCFE06300F6C87B /* Main.storyboard in Resources */,
+				3A5912531FD54C1700658A5F /* SettingTableViewCell.xib in Resources */,
 				3A36926A1FD134B70035BBE2 /* KeyboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,8 +409,10 @@
 				3AA221CE1FCFE06300F6C87B /* ViewController.m in Sources */,
 				3AA221D91FCFE06300F6C87B /* main.m in Sources */,
 				3AA221CB1FCFE06300F6C87B /* AppDelegate.m in Sources */,
+				3A5912571FD551D400658A5F /* SettingViewController.m in Sources */,
 				3A36926E1FD15CC90035BBE2 /* KeyboardComplexViewController.m in Sources */,
 				3A3692691FD134B70035BBE2 /* KeyboardViewController.m in Sources */,
+				3A5912521FD54C1700658A5F /* SettingTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
