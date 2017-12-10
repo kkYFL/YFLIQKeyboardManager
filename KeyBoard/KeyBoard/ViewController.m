@@ -10,6 +10,7 @@
 #import "KeyboardViewController.h"
 #import "KeyboardComplexViewController.h"
 #import "SettingViewController.h"
+#import "NaviViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -52,6 +53,8 @@
         [cell.textLabel setText:@"ComplexVC+Textfield"];
     }else if (indexPath.row ==2){
         [cell.textLabel setText:@"ManagerSettingVC"];
+    }else if (indexPath.row ==3){
+        [cell.textLabel setText:@"NavController"];
     }else{
         [cell.textLabel setText:@""];
     }
@@ -70,6 +73,9 @@
     }else if (indexPath.row == 2){
         SettingViewController *settingVC = [[SettingViewController alloc]initWithNibName:@"SettingViewController" bundle:nil];
         [self.navigationController pushViewController:settingVC animated:YES];
+    }else if (indexPath.row ==3){
+        NaviViewController *navVC = [[NaviViewController alloc]init];
+        [self.navigationController pushViewController:navVC animated:YES];
     }
 }
 

@@ -11,6 +11,8 @@
 		3A36926A1FD134B70035BBE2 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3692681FD134B70035BBE2 /* KeyboardViewController.xib */; };
 		3A36926E1FD15CC90035BBE2 /* KeyboardComplexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */; };
 		3A36926F1FD15CC90035BBE2 /* KeyboardComplexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */; };
+		3A49BF371FDD19650068FEA5 /* IQKeyboardDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49BF361FDD19650068FEA5 /* IQKeyboardDescribe.m */; };
+		3A49BF3A1FDD26300068FEA5 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49BF391FDD26300068FEA5 /* NaviViewController.m */; };
 		3A5912521FD54C1700658A5F /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5912501FD54C1700658A5F /* SettingTableViewCell.m */; };
 		3A5912531FD54C1700658A5F /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5912511FD54C1700658A5F /* SettingTableViewCell.xib */; };
 		3A5912571FD551D400658A5F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5912551FD551D400658A5F /* SettingViewController.m */; };
@@ -50,6 +52,10 @@
 		3A36926B1FD15CC90035BBE2 /* KeyboardComplexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardComplexViewController.h; sourceTree = "<group>"; };
 		3A36926C1FD15CC90035BBE2 /* KeyboardComplexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardComplexViewController.m; sourceTree = "<group>"; };
 		3A36926D1FD15CC90035BBE2 /* KeyboardComplexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardComplexViewController.xib; sourceTree = "<group>"; };
+		3A49BF351FDD19650068FEA5 /* IQKeyboardDescribe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardDescribe.h; sourceTree = "<group>"; };
+		3A49BF361FDD19650068FEA5 /* IQKeyboardDescribe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardDescribe.m; sourceTree = "<group>"; };
+		3A49BF381FDD26300068FEA5 /* NaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		3A49BF391FDD26300068FEA5 /* NaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
 		3A59124F1FD54C1700658A5F /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
 		3A5912501FD54C1700658A5F /* SettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
 		3A5912511FD54C1700658A5F /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
@@ -116,6 +122,8 @@
 			children = (
 				3A59124E1FD54BED00658A5F /* controller */,
 				3A59124D1FD54BED00658A5F /* View */,
+				3A49BF351FDD19650068FEA5 /* IQKeyboardDescribe.h */,
+				3A49BF361FDD19650068FEA5 /* IQKeyboardDescribe.m */,
 			);
 			path = keyBoardFile;
 			sourceTree = "<group>";
@@ -142,6 +150,8 @@
 				3A5912541FD551D400658A5F /* SettingViewController.h */,
 				3A5912551FD551D400658A5F /* SettingViewController.m */,
 				3A5912561FD551D400658A5F /* SettingViewController.xib */,
+				3A49BF381FDD26300068FEA5 /* NaviViewController.h */,
+				3A49BF391FDD26300068FEA5 /* NaviViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -409,9 +419,11 @@
 				3AA221CE1FCFE06300F6C87B /* ViewController.m in Sources */,
 				3AA221D91FCFE06300F6C87B /* main.m in Sources */,
 				3AA221CB1FCFE06300F6C87B /* AppDelegate.m in Sources */,
+				3A49BF371FDD19650068FEA5 /* IQKeyboardDescribe.m in Sources */,
 				3A5912571FD551D400658A5F /* SettingViewController.m in Sources */,
 				3A36926E1FD15CC90035BBE2 /* KeyboardComplexViewController.m in Sources */,
 				3A3692691FD134B70035BBE2 /* KeyboardViewController.m in Sources */,
+				3A49BF3A1FDD26300068FEA5 /* NaviViewController.m in Sources */,
 				3A5912521FD54C1700658A5F /* SettingTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
