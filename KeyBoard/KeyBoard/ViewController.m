@@ -11,6 +11,8 @@
 #import "KeyboardComplexViewController.h"
 #import "SettingViewController.h"
 #import "NaviViewController.h"
+#import "KeyboardTableController.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -55,7 +57,10 @@
         [cell.textLabel setText:@"ManagerSettingVC"];
     }else if (indexPath.row ==3){
         [cell.textLabel setText:@"NavController"];
-    }else{
+    }else if (indexPath.row ==4){
+        [cell.textLabel setText:@"UITableView"];
+    }
+    else{
         [cell.textLabel setText:@""];
     }
     
@@ -76,6 +81,9 @@
     }else if (indexPath.row ==3){
         NaviViewController *navVC = [[NaviViewController alloc]init];
         [self.navigationController pushViewController:navVC animated:YES];
+    }else if (indexPath.row ==4){
+        KeyboardTableController *keyboardTableVC = [[KeyboardTableController alloc]init];
+        [self.navigationController pushViewController:keyboardTableVC animated:YES];
     }
 }
 
